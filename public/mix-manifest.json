@@ -1,0 +1,9 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/rating.min.js": "/js/rating.min.js",
+    "/js/vendors/create.min.js": "/js/vendors/create.min.js",
+    "/js/vendors/edit.min.js": "/js/vendors/edit.min.js",
+    "/css/timeline.min.css": "/css/timeline.min.css",
+    "/css/rating.min.css": "/css/rating.min.css"
+}
