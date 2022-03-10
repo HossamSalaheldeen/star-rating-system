@@ -1,0 +1,58 @@
+select[readonly].select2-hidden-accessible + .select2-container {
+    pointer-events: none;
+    touch-action: none;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container .select2-selection {
+    background: #eee;
+    box-shadow: none;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container .select2-selection__arrow, select[readonly].select2-hidden-accessible + .select2-container .select2-selection__clear {
+    display: none;
+}
+
+.multiselect-dropdown span.placeholder {
+    color: #212529 !important;
+}
+
+.multiselect-dropdown {
+    padding: 5px 5px 0px 5px !important;
+    width: 100% !important;
+}
+
+.multiselect-dropdown[readonly]{
+    background-color: #EEEEEE;
+    pointer-events: none;
+}
+
+
+input[type=checkbox] {
+    background-color: transparent;
+    border: 1px solid var(--button-color);
+    font-size: 18px;
+    height: 1.5em;
+    width: 1.5em;
+    margin-top: 0;
+}
+
+input[type=checkbox]:checked {
+    background-color: white;
+    background-image: url(/images/checked.png) !important;
+    background-size: 12px;
+}
+
+.form-check {
+    margin-bottom: 0
+}
+
+.form-check-label{
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.form-check-input:focus {
+    border: 1px solid black;
+}
+
+
