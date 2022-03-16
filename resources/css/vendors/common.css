@@ -1,0 +1,11 @@
+.poc-multi-forms .btn{
+    background-color: var(--button-color);
+    border-radius: 5px;
+    color: var(--bg-color);
+    font-size: 14px;
+    padding: 8px 40px;
+}
+
+/*.component.cloneable-component {*/
+/*    display: none;*/
+/*}*/

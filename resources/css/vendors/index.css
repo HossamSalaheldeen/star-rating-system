@@ -1,0 +1,57 @@
+table thead th:first-child {
+    width: 17%;
+}
+
+table thead th:nth-child(2) {
+    width: 8%;
+}
+
+table thead th:nth-child(3) {
+    width: 16.5%;
+}
+
+table thead th:nth-child(4) {
+    width: 19.25%;
+}
+
+table thead th:nth-child(5) {
+    width: 9.25%;
+}
+
+table thead th:nth-child(6) {
+    width: 14%;
+}
+
+table thead th:last-child {
+    width: 17.75%;
+}
+
+.nav-pills .nav-link {
+    color: gray;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #0e223d;
+    background-color: #ffffff;
+    font-size: 18px;
+    border-bottom: 3px solid #0e223d;
+}
+
+span.field-header{
+    background-color: #F0F2F3 !important;
+    color: #0e223d !important;
+
+}
+
+span.border-left{
+    border-left: 5px solid white;
+}
+span.border-right{
+    border-right: 5px solid white;
+}
+
+span.text-gray{
+    color: gray;
+}
