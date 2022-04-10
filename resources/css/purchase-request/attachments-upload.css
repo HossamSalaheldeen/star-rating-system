@@ -1,0 +1,44 @@
+.image_box {
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 0 12px #9c9c9c;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.image_box .btn {
+    position: absolute;
+    right: 0;
+}
+
+.dropify-preview {
+    display: none !important;
+}
+
+.dropify-wrapper {
+    border: 1px solid #707070;
+    border-radius: 10px;
+    height: 200px !important
+}
+
+.file-icon:before {
+    color: var(--button-color);
+    font-size: 60px
+}
+
+.file-icon p {
+    color: var(--main-color);
+    font-size: 24px
+}
+
+.image_slide img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.dropify-wrapper:hover {
+    background:none;
+}

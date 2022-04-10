@@ -1,0 +1,80 @@
+.create-purchase-request-item-form{
+    background-color: #EFF0F5;
+    padding-bottom: 5rem !important;
+}
+
+.item-header{
+    background-color: #EFF0F5;
+}
+
+.purchase-request-add-item-btn{
+    background-color: var(--button-color);
+    border-radius: 5px;
+    color: var(--bg-color);
+    font-size: 14px;
+    padding: 8px 40px;
+}
+
+.remove-image-btn{
+    bottom: 10px;
+    position: relative;
+    font-size: 12px;
+}
+
+.input-images{
+    cursor: pointer;
+}
+
+.payment-info-box{
+    background-color: #0e223d;
+    color: white;
+}
+
+.image-title{
+    width: 90px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 1em;
+    font-size: 30px;
+    font-weight: 300;
+    color: #868789;
+    pointer-events: none;
+    /*cursor: pointer;*/
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+
+
+
